@@ -1,20 +1,24 @@
 body{
 	padding: 20px 0 30px;
-	max-width: 1500px;
+	max-width: 1450px;
+	background-image: url(../images/background.png);
 }
 .topdiv{
-	background-color: green;
-	padding: 10px;
+	background-color: #009999;
+	padding: 10px 30px;
+	color: white;
+}
+.topdiv-content{
+	width: 100%;
 }
 .language{
 	display: inline-block;
-	margin: 0 40px 0;
+	margin: 0 680px 0 0;
 	vertical-align: middle;
 }
 .log-in{
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 500px;
 }
 form{
 	display: inline-block;
@@ -26,5 +30,28 @@ input{
 	display: inline-block;
 }
 .log-in p{
+	display: inline-block;
+}
+header{
+	max-width: 100%;
+	padding: 10px 30px;
+}
+.logo{
+	display: inline-block;
+	width: 100px;
+	margin-right: 425px;
+}
+nav{
+	display: inline-block;
+	vertical-align: top;
+}
+li{
+	display: inline-block;
+	margin-right: 40px;
+	background-color: white;
+	border: dotted 2px;
+	font-size: 20px;
+}
+ul{
 	display: inline-block;
 }
