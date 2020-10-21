@@ -45,14 +45,14 @@ nav{
 	display: inline-block;
 	vertical-align: top;
 }
-li{
+header li{
 	display: inline-block;
 	margin-right: 40px;
 	background-color: white;
 	border: dotted 2px;
 	font-size: 20px;
 }
-ul{
+header ul{
 	display: inline-block;
 }
 .banner-image{
@@ -71,4 +71,32 @@ ul{
 	margin: 0 80px;
 	padding: 60px 50px;
 	color: white;
+}
+footer{
+	margin: 20px auto;
+	width: 100%;
+	background-color: #003333;
+	padding: 50px 30px;
+}
+footer img{
+	padding: 0 36px 0 36px;
+	height: 31px;
+	object-fit: contain;
+	color: white;
+}
+footer li:first-child{
+	border-right: 1px solid white;
+}
+footer li{
+	height: 31px;
+	display: inline-block;
+}
+footer ul{
+	display: inline-block;
+	margin-right: 400px;
+}
+iframe{
+	display: inline-block;
+	vertical-align: top;
+	height: 200px;
 }
