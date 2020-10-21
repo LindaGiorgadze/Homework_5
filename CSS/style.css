@@ -1,0 +1,30 @@
+body{
+	padding: 20px 0 30px;
+	max-width: 1500px;
+}
+.topdiv{
+	background-color: green;
+	padding: 10px;
+}
+.language{
+	display: inline-block;
+	margin: 0 40px 0;
+	vertical-align: middle;
+}
+.log-in{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 500px;
+}
+form{
+	display: inline-block;
+}
+label{
+	display: inline-block;
+}
+input{
+	display: inline-block;
+}
+.log-in p{
+	display: inline-block;
+}
