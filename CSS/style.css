@@ -55,3 +55,20 @@ li{
 ul{
 	display: inline-block;
 }
+.banner-image{
+	width: 100%;
+}
+.portfolio{
+	margin: 20px auto;
+}
+.portfolio div{
+	background-color: #006666;
+	display: inline-block;
+	font-size: 30px;
+	height: 200px;
+	width: 300px;
+	text-align: center;
+	margin: 0 80px;
+	padding: 60px 50px;
+	color: white;
+}
